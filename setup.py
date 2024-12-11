@@ -147,7 +147,7 @@ class CustomInstallCommand(install):
                           'all': True})
         r = cmind.access({'action': 'pull',
                           'automation': 'repo',
-                          'artifact': 'mlcommons@mlperf-automations',
+                          'artifact': 'gateoverflow@mlperf-automations',
                           'checkout': commit_hash})
         # r = cmind.access({'action':'pull', 'automation':'repo', 'artifact':'mlcommons@mlperf-automations', 'checkout': commit_hash})
         print(r)
